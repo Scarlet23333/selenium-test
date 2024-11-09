@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SeleniumTests">
+    <test name="Webpage Scenarios">
+        <classes>
+            <class name="com.seleniumtest.ScenarioOne"/>
+            <class name="com.seleniumtest.ScenarioTwo"/>
+            <!-- Add more test classes here -->
+        </classes>
+    </test>
+</suite>

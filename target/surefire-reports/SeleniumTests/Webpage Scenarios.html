@@ -1,0 +1,130 @@
+<html>
+<head>
+<title>TestNG:  Webpage Scenarios</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Webpage Scenarios</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Nov 09 13:37:31 PST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>277 seconds (277789 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.seleniumtest.Scenario4.test4Step2()'><b>test4Step2</b><br>Test class: com.seleniumtest.Scenario4<br>Parameters: Step2, //a[normalize-space()='Datasets'], Scenario4</td>
+<td></td>
+<td>13</td>
+<td>com.seleniumtest.Scenario4@61862a7f</td></tr>
+<tr>
+<td title='com.seleniumtest.Scenario4.test4Step1()'><b>test4Step1</b><br>Test class: com.seleniumtest.Scenario4<br>Parameters: Step0, Step1, https://onesearch.library.northeastern.edu/discovery/search?vid=01NEU_INST:NU&lang=en, //span[normalize-space()='digital repository service'], Scenario4</td>
+<td></td>
+<td>21</td>
+<td>com.seleniumtest.Scenario4@61862a7f</td></tr>
+<tr>
+<td title='com.seleniumtest.Scenario4.test4Step3()'><b>test4Step3</b><br>Test class: com.seleniumtest.Scenario4<br>Parameters: Step3, //article[1]//div[1]//div[1]//div[1]//div[1]//div[1]//a[1], Successful download, Failed download, Scenario4</td>
+<td></td>
+<td>181</td>
+<td>com.seleniumtest.Scenario4@61862a7f</td></tr>
+<tr>
+<td title='com.seleniumtest.Scenario5.test5Step4()'><b>test5Step4</b><br>Test class: com.seleniumtest.Scenario5<br>Parameters: Step4, //*[@id="tax-academic-calendars"]/div/a[1], Scenario5</td>
+<td></td>
+<td>5</td>
+<td>com.seleniumtest.Scenario5@62150f9e</td></tr>
+<tr>
+<td title='com.seleniumtest.Scenario5.test5Step1to3()'><b>test5Step1to3</b><br>Test class: com.seleniumtest.Scenario5<br>Parameters: Step3, //*[@id="resource-tab-contents-Academics,_Classes_&_Registration"]/section[1]/ul/li[1]/div/a, Scenario5</td>
+<td></td>
+<td>3</td>
+<td>com.seleniumtest.Scenario5@62150f9e</td></tr>
+<tr>
+<td title='com.seleniumtest.Scenario5.test5Step5to6()'><b>test5Step5to6</b><br>Test class: com.seleniumtest.Scenario5<br>Parameters: Step5, //*[@id="trumba.spud.7.iframe"], Step6, //input[@id='mixItem2'], Scenario5</td>
+<td></td>
+<td>4</td>
+<td>com.seleniumtest.Scenario5@62150f9e</td></tr>
+<tr>
+<td title='com.seleniumtest.Scenario5.test5Step1to3()'><b>test5Step1to3</b><br>Test class: com.seleniumtest.Scenario5<br>Parameters: Step2, //*[@id="resource-tab-Academics,_Classes_&_Registration"]/span[1]/img[2], Scenario5</td>
+<td></td>
+<td>3</td>
+<td>com.seleniumtest.Scenario5@62150f9e</td></tr>
+<tr>
+<td title='com.seleniumtest.Scenario5.test5Step7()'><b>test5Step7</b><br>Test class: com.seleniumtest.Scenario5<br>Parameters: Step7, //*[@id="main"]/article/header/div/h1, 'Add to My Calendar' button is displayed, 'Add to My Calendar' button is not displayed, Scenario5</td>
+<td></td>
+<td>0</td>
+<td>com.seleniumtest.Scenario5@62150f9e</td></tr>
+<tr>
+<td title='com.seleniumtest.Scenario5.test5Step0()'><b>test5Step0</b><br>Test class: com.seleniumtest.Scenario5<br>Parameters: Step0, https://student.me.northeastern.edu/, loginfmt, passwd, idSIButton9, trust-browser-button, huang.yushu@northeastern.edu, dWuGLsR0BmNAj8OrZ+7ykCKDTjdVfwMA1crqxIqcOWw=, z2IPA18hTEUF3cPseC7Ajw==, Scenario5</td>
+<td></td>
+<td>34</td>
+<td>com.seleniumtest.Scenario5@62150f9e</td></tr>
+<tr>
+<td title='com.seleniumtest.Scenario5.test5Step1to3()'><b>test5Step1to3</b><br>Test class: com.seleniumtest.Scenario5<br>Parameters: Step1, /html/body/div[1]/header/div[2]/div[2]/div[1]/nav/ul/li[5]/a, Scenario5</td>
+<td></td>
+<td>3</td>
+<td>com.seleniumtest.Scenario5@62150f9e</td></tr>
+</table><p>
+</body>
+</html>

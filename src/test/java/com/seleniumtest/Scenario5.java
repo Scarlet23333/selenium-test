@@ -13,7 +13,7 @@ import util.AESUtil;
 public class Scenario5 extends BaseTest {
 
     @Test(dataProvider = "scenario5-step0", dataProviderClass = DataProviderFromExcel.class)
-    public void testStep0(String step, String URL, String usernameTextBoxName, String passwordTextBoxName, String loginButtonID, 
+    public void test5Step0(String step, String URL, String usernameTextBoxName, String passwordTextBoxName, String loginButtonID, 
                           String DUOButtonID, String username, String password, String secretKey, String scenarioName) throws Exception {
         // login to student hub
         driver.get(URL);
@@ -33,7 +33,7 @@ public class Scenario5 extends BaseTest {
     }
 
     @Test(dataProvider = "scenario5-step1-to-step3", dataProviderClass = DataProviderFromExcel.class)
-    public void testStep1to3(String step, String buttonXPath, String scenarioName) throws Exception {
+    public void test5Step1to3(String step, String buttonXPath, String scenarioName) throws Exception {
         // click several buttons to go to the academic calender webpage
         driver.findElement(By.xpath(buttonXPath)).click();
         Thread.sleep(3000);
@@ -47,7 +47,7 @@ public class Scenario5 extends BaseTest {
     }
 
     @Test(dataProvider = "scenario5-step4", dataProviderClass = DataProviderFromExcel.class)
-    public void testStep4(String step, String buttonXPath, String scenarioName) throws Exception {
+    public void test5Step4(String step, String buttonXPath, String scenarioName) throws Exception {
         // click the calender button
         driver.findElement(By.xpath(buttonXPath)).click();
         Thread.sleep(5000);
@@ -55,7 +55,7 @@ public class Scenario5 extends BaseTest {
     }
 
     @Test(dataProvider = "scenario5-step5-step6", dataProviderClass = DataProviderFromExcel.class)
-    public void testStep5to6(String step, String calendarsXPath, String followingStep, String checkBoxXPath, String scenarioName) throws Exception {
+    public void test5Step5to6(String step, String calendarsXPath, String followingStep, String checkBoxXPath, String scenarioName) throws Exception {
         WebElement element = driver.findElement(By.xpath(calendarsXPath));
         // scroll to show the calendars
         ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
@@ -70,15 +70,8 @@ public class Scenario5 extends BaseTest {
         ScreenshotHelper.takeScreenshot(driver, scenarioName, followingStep); // after step 6
     }
 
-    // @Test(dataProvider = "scenario5-step6", dataProviderClass = DataProviderFromExcel.class)
-    // public void testStep6(String step, String checkBoxID) throws Exception {
-    //     driver.findElement(By.xpath(checkBoxID)).click();
-    //     Thread.sleep(1000); 
-    //     ScreenshotHelper.takeScreenshot(driver, "Scenario5", step); // after step 6
-    // }
-
     @Test(dataProvider = "scenario5-step7", dataProviderClass = DataProviderFromExcel.class)
-    public void testStep7(String step, String buttonXPath, String expected, String unexpected, String scenarioName) throws Exception {
+    public void test5Step7(String step, String buttonXPath, String expected, String unexpected, String scenarioName) throws Exception {
         // switch to full page
         driver.switchTo().defaultContent();
         
@@ -87,12 +80,10 @@ public class Scenario5 extends BaseTest {
         WebElement element = driver.findElement(By.xpath(buttonXPath));
 
         // report
-        test.info("Scenario: scenario5");
-        test.info("Expected: " + expected);
         if (element.isDisplayed())
-            test.info("Actual: " + expected);
-        else 
-            test.info("Actual: " + unexpected);
+            reportInfo(scenarioName, expected, expected);
+        else
+            reportInfo(scenarioName, expected, unexpected);
 
         SoftAssert softAssert = new SoftAssert();
         softAssert.assertTrue(element.isDisplayed(), "'Add to My Calendar' button should be visible");

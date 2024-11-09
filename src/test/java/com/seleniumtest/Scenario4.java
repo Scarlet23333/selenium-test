@@ -1,17 +1,17 @@
 package com.seleniumtest;
 
 import java.util.ArrayList;
-// import java.io.File;
-
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 import util.ScreenshotHelper;
+import util.FileUtil;
 
 public class Scenario4 extends BaseTest {    
     
     @Test(dataProvider = "scenario4-step1", dataProviderClass = DataProviderFromExcel.class)
-    public void testStep1(String beforeStep, String step, String URL, String buttonXPath, String scenarioName) throws Exception {
+    public void test4Step1(String beforeStep, String step, String URL, String buttonXPath, String scenarioName) throws Exception {
         // show library webpage
         driver.get(URL);
         Thread.sleep(5000);  // Sleep for 7 seconds
@@ -32,7 +32,7 @@ public class Scenario4 extends BaseTest {
     }
 
     @Test(dataProvider = "scenario4-step2", dataProviderClass = DataProviderFromExcel.class)
-    public void testStep2(String step, String buttonXPath, String scenarioName) throws Exception {
+    public void test4Step2(String step, String buttonXPath, String scenarioName) throws Exception {
         Thread.sleep(10000);
         // click Dataset
         driver.findElement(By.xpath(buttonXPath)).click();
@@ -41,13 +41,19 @@ public class Scenario4 extends BaseTest {
     }
 
     @Test(dataProvider = "scenario4-step3", dataProviderClass = DataProviderFromExcel.class)
-    public void testStep3(String step, String buttonXPath, String scenarioName) throws Exception {
+    public void test4Step3(String step, String buttonXPath, String expected, String unexpected, String scenarioName) throws Exception {
         // click Dataset
         driver.findElement(By.xpath(buttonXPath)).click();
-        // File downloadedFile = new File(downloadFilePath + "/filename.extension");
-        while (!downloadFilePath.isEmpty()) {
-            Thread.sleep(1000); // Wait until the file appears
-        }
-        ScreenshotHelper.takeScreenshot(driver, scenarioName, step); // after step 2
+        boolean successDownload = FileUtil.waitForFileToDownload(downloadFilePath);
+        // report
+        if (successDownload)
+            reportInfo(scenarioName, expected, expected);
+        else
+            reportInfo(scenarioName, expected, unexpected);
+
+        SoftAssert softAssert = new SoftAssert();
+        softAssert.assertTrue(successDownload, "File downloading failed.");
+        softAssert.assertAll();
+        ScreenshotHelper.takeScreenshot(driver, scenarioName, step); // after step 3
     }
 }

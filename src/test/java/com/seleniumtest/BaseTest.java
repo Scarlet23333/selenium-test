@@ -1,9 +1,10 @@
 package com.seleniumtest;
 
 import java.lang.reflect.Method;
+import java.nio.file.Paths;
+import java.io.File;
 import java.util.HashMap;
 import java.util.Map;
-import java.io.File;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -33,7 +34,13 @@ public class BaseTest {
         extent = new ExtentReports();
         extent.attachReporter(sparkReporter);
         // setup download file path
-        downloadFilePath = new File("").getAbsolutePath().concat("target/download");
+        downloadFilePath = Paths.get("target", "downloads").toAbsolutePath().toString();
+        File downloadDir = new File(downloadFilePath);
+        if (!downloadDir.exists()) {
+            downloadDir.mkdirs();
+        }
+        // set chrome driver path
+        System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver-win64/chromedriver.exe");
     }
 
     @AfterSuite
@@ -43,16 +50,19 @@ public class BaseTest {
 
     @BeforeClass
     public void setUpClass() {
-        // setup browser driver
+        // Create ChromeOptions object
         ChromeOptions options = new ChromeOptions();
+
         // set up automatic download without confirm
         Map<String, Object> prefs = new HashMap<>();
         prefs.put("profile.default_content_settings.popups", 0);
         prefs.put("download.default_directory", downloadFilePath);
         options.setExperimentalOption("prefs", prefs);
+        
         // set the browser start in max size
         options.addArguments("start-maximized");
         // options.addArguments("--auto-open-devtools-for-tabs");
+        
         driver = new ChromeDriver(options);
     }
 
@@ -78,5 +88,12 @@ public class BaseTest {
         } else {
             test.skip("Test skipped");
         }
+    }
+
+    public void reportInfo(String scenarioName, String expected, String actual) {
+        // report info
+        test.info("Scenario: " + scenarioName);
+        test.info("Expected: " + expected);
+        test.info("Actual: " + actual);
     }
 }

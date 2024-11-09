@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-09T13:37:31 PST" name="SeleniumTests" finished-at="2024-11-09T13:42:09 PST" duration-ms="277789">
+    <groups>
+    </groups>
+    <test started-at="2024-11-09T13:37:31 PST" name="Webpage Scenarios" finished-at="2024-11-09T13:42:09 PST" duration-ms="277789">
+      <class name="com.seleniumtest.Scenario4">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.seleniumtest.Scenario4@61862a7f]" started-at="2024-11-09T13:37:31 PST" name="setUp" finished-at="2024-11-09T13:37:31 PST" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.seleniumtest.Scenario4@61862a7f]" started-at="2024-11-09T13:37:31 PST" name="setUpClass" finished-at="2024-11-09T13:37:32 PST" duration-ms="1401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="test4Step1(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.seleniumtest.Scenario4@61862a7f]" started-at="2024-11-09T13:37:33 PST" name="test4Step1" data-provider="scenario4-step1" finished-at="2024-11-09T13:37:55 PST" duration-ms="21620" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Step0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Step1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://onesearch.library.northeastern.edu/discovery/search?vid=01NEU_INST:NU&lang=en]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[//span[normalize-space()='digital repository service']]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Scenario4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4Step1 -->
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumtest.Scenario4@61862a7f]" started-at="2024-11-09T13:37:33 PST" name="setupTest" finished-at="2024-11-09T13:37:33 PST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumtest.Scenario4.test4Step1(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method is-config="true" signature="logTestResult(org.testng.ITestResult)[pri:0, instance:com.seleniumtest.Scenario4@61862a7f]" started-at="2024-11-09T13:37:55 PST" name="logTestResult" finished-at="2024-11-09T13:37:55 PST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test4Step1 status=SUCCESS method=Scenario4.test4Step1(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.seleniumtest.Scenario4@61862a7f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestResult -->
+        <test-method signature="test4Step2(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.seleniumtest.Scenario4@61862a7f]" started-at="2024-11-09T13:37:55 PST" name="test4Step2" data-provider="scenario4-step2" finished-at="2024-11-09T13:38:08 PST" duration-ms="13776" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Step2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//a[normalize-space()='Datasets']]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Scenario4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4Step2 -->
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumtest.Scenario4@61862a7f]" started-at="2024-11-09T13:37:55 PST" name="setupTest" finished-at="2024-11-09T13:37:55 PST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumtest.Scenario4.test4Step2(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method is-config="true" signature="logTestResult(org.testng.ITestResult)[pri:0, instance:com.seleniumtest.Scenario4@61862a7f]" started-at="2024-11-09T13:38:08 PST" name="logTestResult" finished-at="2024-11-09T13:38:08 PST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test4Step2 status=SUCCESS method=Scenario4.test4Step2(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.seleniumtest.Scenario4@61862a7f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestResult -->
+        <test-method signature="test4Step3(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.seleniumtest.Scenario4@61862a7f]" started-at="2024-11-09T13:38:08 PST" name="test4Step3" data-provider="scenario4-step3" finished-at="2024-11-09T13:41:10 PST" duration-ms="181760" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Step3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//article[1]//div[1]//div[1]//div[1]//div[1]//div[1]//a[1]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Successful download]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Failed download]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Scenario4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4Step3 -->
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumtest.Scenario4@61862a7f]" started-at="2024-11-09T13:38:08 PST" name="setupTest" finished-at="2024-11-09T13:38:08 PST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumtest.Scenario4.test4Step3(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method is-config="true" signature="logTestResult(org.testng.ITestResult)[pri:0, instance:com.seleniumtest.Scenario4@61862a7f]" started-at="2024-11-09T13:41:10 PST" name="logTestResult" finished-at="2024-11-09T13:41:10 PST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test4Step3 status=SUCCESS method=Scenario4.test4Step3(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.seleniumtest.Scenario4@61862a7f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.seleniumtest.Scenario4@61862a7f]" started-at="2024-11-09T13:41:10 PST" name="tearDown" finished-at="2024-11-09T13:41:10 PST" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="reportGenerate()[pri:0, instance:com.seleniumtest.Scenario4@61862a7f]" started-at="2024-11-09T13:42:09 PST" name="reportGenerate" finished-at="2024-11-09T13:42:09 PST" duration-ms="315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportGenerate -->
+      </class> <!-- com.seleniumtest.Scenario4 -->
+      <class name="com.seleniumtest.Scenario5">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-09T13:41:10 PST" name="setUpClass" finished-at="2024-11-09T13:41:12 PST" duration-ms="1089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-09T13:41:12 PST" name="setupTest" finished-at="2024-11-09T13:41:12 PST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumtest.Scenario5.test5Step0(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="test5Step0(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-09T13:41:12 PST" name="test5Step0" data-provider="scenario5-step0" finished-at="2024-11-09T13:41:46 PST" duration-ms="34779" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Step0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://student.me.northeastern.edu/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[loginfmt]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[passwd]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[idSIButton9]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[trust-browser-button]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[huang.yushu@northeastern.edu]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[dWuGLsR0BmNAj8OrZ+7ykCKDTjdVfwMA1crqxIqcOWw=]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[z2IPA18hTEUF3cPseC7Ajw==]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Scenario5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5Step0 -->
+        <test-method is-config="true" signature="logTestResult(org.testng.ITestResult)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-09T13:41:46 PST" name="logTestResult" finished-at="2024-11-09T13:41:46 PST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test5Step0 status=SUCCESS method=Scenario5.test5Step0(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestResult -->
+        <test-method signature="test5Step1to3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-09T13:41:46 PST" name="test5Step1to3" data-provider="scenario5-step1-to-step3" finished-at="2024-11-09T13:41:50 PST" duration-ms="3764" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Step1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/html/body/div[1]/header/div[2]/div[2]/div[1]/nav/ul/li[5]/a]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Scenario5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5Step1to3 -->
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-09T13:41:46 PST" name="setupTest" finished-at="2024-11-09T13:41:46 PST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumtest.Scenario5.test5Step1to3(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="test5Step1to3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-09T13:41:50 PST" name="test5Step1to3" data-provider="scenario5-step1-to-step3" finished-at="2024-11-09T13:41:54 PST" duration-ms="3777" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Step2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//*[@id="resource-tab-Academics,_Classes_&_Registration"]/span[1]/img[2]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Scenario5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5Step1to3 -->
+        <test-method is-config="true" signature="logTestResult(org.testng.ITestResult)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-09T13:41:50 PST" name="logTestResult" finished-at="2024-11-09T13:41:50 PST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test5Step1to3 status=SUCCESS method=Scenario5.test5Step1to3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestResult -->
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-09T13:41:50 PST" name="setupTest" finished-at="2024-11-09T13:41:50 PST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumtest.Scenario5.test5Step1to3(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="test5Step1to3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-09T13:41:54 PST" name="test5Step1to3" data-provider="scenario5-step1-to-step3" finished-at="2024-11-09T13:41:58 PST" duration-ms="3947" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Step3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//*[@id="resource-tab-contents-Academics,_Classes_&_Registration"]/section[1]/ul/li[1]/div/a]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Scenario5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5Step1to3 -->
+        <test-method is-config="true" signature="logTestResult(org.testng.ITestResult)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-09T13:41:54 PST" name="logTestResult" finished-at="2024-11-09T13:41:54 PST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test5Step1to3 status=SUCCESS method=Scenario5.test5Step1to3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestResult -->
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-09T13:41:54 PST" name="setupTest" finished-at="2024-11-09T13:41:54 PST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumtest.Scenario5.test5Step1to3(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method is-config="true" signature="logTestResult(org.testng.ITestResult)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-09T13:41:58 PST" name="logTestResult" finished-at="2024-11-09T13:41:58 PST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test5Step1to3 status=SUCCESS method=Scenario5.test5Step1to3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestResult -->
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-09T13:41:58 PST" name="setupTest" finished-at="2024-11-09T13:41:58 PST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumtest.Scenario5.test5Step4(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="test5Step4(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-09T13:41:58 PST" name="test5Step4" data-provider="scenario5-step4" finished-at="2024-11-09T13:42:04 PST" duration-ms="5879" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Step4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//*[@id="tax-academic-calendars"]/div/a[1]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Scenario5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5Step4 -->
+        <test-method is-config="true" signature="logTestResult(org.testng.ITestResult)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-09T13:42:04 PST" name="logTestResult" finished-at="2024-11-09T13:42:04 PST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test5Step4 status=SUCCESS method=Scenario5.test5Step4(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestResult -->
+        <test-method signature="test5Step5to6(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-09T13:42:04 PST" name="test5Step5to6" data-provider="scenario5-step5-step6" finished-at="2024-11-09T13:42:08 PST" duration-ms="4512" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Step5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//*[@id="trumba.spud.7.iframe"]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Step6]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[//input[@id='mixItem2']]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Scenario5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5Step5to6 -->
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-09T13:42:04 PST" name="setupTest" finished-at="2024-11-09T13:42:04 PST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumtest.Scenario5.test5Step5to6(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method is-config="true" signature="logTestResult(org.testng.ITestResult)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-09T13:42:08 PST" name="logTestResult" finished-at="2024-11-09T13:42:08 PST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test5Step5to6 status=SUCCESS method=Scenario5.test5Step5to6(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestResult -->
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-09T13:42:08 PST" name="setupTest" finished-at="2024-11-09T13:42:08 PST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumtest.Scenario5.test5Step7(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="test5Step7(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-09T13:42:08 PST" name="test5Step7" data-provider="scenario5-step7" finished-at="2024-11-09T13:42:09 PST" duration-ms="214" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Step7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//*[@id="main"]/article/header/div/h1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA['Add to My Calendar' button is displayed]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA['Add to My Calendar' button is not displayed]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Scenario5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5Step7 -->
+        <test-method is-config="true" signature="logTestResult(org.testng.ITestResult)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-09T13:42:09 PST" name="logTestResult" finished-at="2024-11-09T13:42:09 PST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test5Step7 status=SUCCESS method=Scenario5.test5Step7(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-09T13:42:09 PST" name="tearDown" finished-at="2024-11-09T13:42:09 PST" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.seleniumtest.Scenario5 -->
+    </test> <!-- Webpage Scenarios -->
+  </suite> <!-- SeleniumTests -->
+</testng-results>

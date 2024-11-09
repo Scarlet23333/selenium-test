@@ -2,9 +2,9 @@
 <suite name="SeleniumTests">
     <test name="Webpage Scenarios">
         <classes>
-            <class name="com.seleniumtest.ScenarioOne"/>
-            <class name="com.seleniumtest.ScenarioTwo"/>
             <!-- Add more test classes here -->
+            <class name="com.seleniumtest.Scenario4"/>            
+            <class name="com.seleniumtest.Scenario5"/>
         </classes>
     </test>
 </suite>

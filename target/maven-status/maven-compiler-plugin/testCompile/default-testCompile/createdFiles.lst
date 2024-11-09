@@ -1,2 +1,4 @@
 com\seleniumtest\Scenario5.class
+com\seleniumtest\BaseTest.class
+com\seleniumtest\Scenario4.class
 com\seleniumtest\DataProviderFromExcel.class

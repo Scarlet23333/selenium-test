@@ -14,17 +14,14 @@ public class Scenario4 extends BaseTest {
     public void test4Step1(String beforeStep, String step, String URL, String buttonXPath, String scenarioName) throws Exception {
         // show library webpage
         driver.get(URL);
-        Thread.sleep(5000);  // Sleep for 7 seconds
+        Thread.sleep(5000);  // Sleep for 5 seconds
         ScreenshotHelper.takeScreenshot(driver, scenarioName, beforeStep); // before step 1
         
         // click Digital Repository Service
         driver.findElement(By.xpath(buttonXPath)).click();
 
-        // switch to full page
-        // driver.switchTo().defaultContent();
-
         // switch to new tab
-        Thread.sleep(10000);
+        Thread.sleep(7000);
         ArrayList<String> tabs = new ArrayList<String> (driver.getWindowHandles());
         driver.switchTo().window(tabs.get(tabs.size() - 1));
         Thread.sleep(500);
@@ -42,9 +39,13 @@ public class Scenario4 extends BaseTest {
 
     @Test(dataProvider = "scenario4-step3", dataProviderClass = DataProviderFromExcel.class)
     public void test4Step3(String step, String buttonXPath, String expected, String unexpected, String scenarioName) throws Exception {
-        // click Dataset
-        driver.findElement(By.xpath(buttonXPath)).click();
+        // click a dataset to download, keep trying until download is started
+        while (!FileUtil.checkDownloadStart(downloadFilePath))
+            driver.findElement(By.xpath(buttonXPath)).click();
+
+        // wait until successfully download
         boolean successDownload = FileUtil.waitForFileToDownload(downloadFilePath);
+
         // report
         if (successDownload)
             reportInfo(scenarioName, expected, expected);

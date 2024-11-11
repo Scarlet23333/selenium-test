@@ -32,6 +32,32 @@ public class FileUtil {
         return data;
     }
 
+    // check whether a download is started
+    public static boolean checkDownloadStart(String downloadPath) {
+        File downloadDir = new File(downloadPath);
+        File latestFile = null;
+
+        // Polling every second for the new file
+        File[] files = downloadDir.listFiles(File::isFile);
+        if (files != null && files.length > 0) {
+            // Get the latest file in the directory based on last modified time
+            latestFile = Arrays.stream(files)
+                    .max(Comparator.comparingLong(File::lastModified))
+                    .orElse(null);
+            // Check if the latest file has non-zero size (indicating download start)
+            if (latestFile != null && latestFile.length() > 0) {
+                return true;
+            }
+        }
+
+        try {
+            Thread.sleep(1000); // Wait a second before checking again
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        return false;
+    }
+
     // check whether a download is finished
     public static boolean waitForFileToDownload(String downloadPath) {
         File downloadDir = new File(downloadPath);
@@ -49,7 +75,7 @@ public class FileUtil {
                 String latestFileName = latestFile.getName();
                 int latestFileNameLength = latestFileName.length();
                 String fileSuffix = latestFileName.substring(latestFileNameLength-3, latestFileNameLength);
-                // Check if the latest file has non-zero size (indicating download completion)
+                // Check if the latest file has downloaded
                 if (latestFile != null && fileSuffix.equals("zip")) {
                     return true;
                 }

@@ -2,20 +2,31 @@
 <testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-09T13:37:31 PST" name="SeleniumTests" finished-at="2024-11-09T13:42:09 PST" duration-ms="277789">
+  <suite started-at="2024-11-11T13:37:28 PST" name="SeleniumTests" finished-at="2024-11-11T13:41:59 PST" duration-ms="270629">
     <groups>
     </groups>
-    <test started-at="2024-11-09T13:37:31 PST" name="Webpage Scenarios" finished-at="2024-11-09T13:42:09 PST" duration-ms="277789">
+    <test started-at="2024-11-11T13:37:28 PST" name="Webpage Scenarios" finished-at="2024-11-11T13:41:59 PST" duration-ms="270629">
       <class name="com.seleniumtest.Scenario4">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.seleniumtest.Scenario4@61862a7f]" started-at="2024-11-09T13:37:31 PST" name="setUp" finished-at="2024-11-09T13:37:31 PST" duration-ms="182" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.seleniumtest.Scenario4@61862a7f]" started-at="2024-11-11T13:37:28 PST" name="setUp" finished-at="2024-11-11T13:37:28 PST" duration-ms="184" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.seleniumtest.Scenario4@61862a7f]" started-at="2024-11-09T13:37:31 PST" name="setUpClass" finished-at="2024-11-09T13:37:32 PST" duration-ms="1401" status="PASS">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.seleniumtest.Scenario4@61862a7f]" started-at="2024-11-11T13:37:28 PST" name="setUpClass" finished-at="2024-11-11T13:37:30 PST" duration-ms="1450" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="test4Step1(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.seleniumtest.Scenario4@61862a7f]" started-at="2024-11-09T13:37:33 PST" name="test4Step1" data-provider="scenario4-step1" finished-at="2024-11-09T13:37:55 PST" duration-ms="21620" status="PASS">
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumtest.Scenario4@61862a7f]" started-at="2024-11-11T13:37:30 PST" name="setupTest" finished-at="2024-11-11T13:37:30 PST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumtest.Scenario4.test4Step1(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="test4Step1(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.seleniumtest.Scenario4@61862a7f]" started-at="2024-11-11T13:37:30 PST" name="test4Step1" data-provider="scenario4-step1" finished-at="2024-11-11T13:37:47 PST" duration-ms="16924" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -46,18 +57,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test4Step1 -->
-        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumtest.Scenario4@61862a7f]" started-at="2024-11-09T13:37:33 PST" name="setupTest" finished-at="2024-11-09T13:37:33 PST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.seleniumtest.Scenario4.test4Step1(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupTest -->
-        <test-method is-config="true" signature="logTestResult(org.testng.ITestResult)[pri:0, instance:com.seleniumtest.Scenario4@61862a7f]" started-at="2024-11-09T13:37:55 PST" name="logTestResult" finished-at="2024-11-09T13:37:55 PST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="logTestResult(org.testng.ITestResult)[pri:0, instance:com.seleniumtest.Scenario4@61862a7f]" started-at="2024-11-11T13:37:47 PST" name="logTestResult" finished-at="2024-11-11T13:37:47 PST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -68,7 +68,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logTestResult -->
-        <test-method signature="test4Step2(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.seleniumtest.Scenario4@61862a7f]" started-at="2024-11-09T13:37:55 PST" name="test4Step2" data-provider="scenario4-step2" finished-at="2024-11-09T13:38:08 PST" duration-ms="13776" status="PASS">
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumtest.Scenario4@61862a7f]" started-at="2024-11-11T13:37:47 PST" name="setupTest" finished-at="2024-11-11T13:37:47 PST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumtest.Scenario4.test4Step2(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="test4Step2(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.seleniumtest.Scenario4@61862a7f]" started-at="2024-11-11T13:37:47 PST" name="test4Step2" data-provider="scenario4-step2" finished-at="2024-11-11T13:38:01 PST" duration-ms="13981" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -89,18 +100,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test4Step2 -->
-        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumtest.Scenario4@61862a7f]" started-at="2024-11-09T13:37:55 PST" name="setupTest" finished-at="2024-11-09T13:37:55 PST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.seleniumtest.Scenario4.test4Step2(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupTest -->
-        <test-method is-config="true" signature="logTestResult(org.testng.ITestResult)[pri:0, instance:com.seleniumtest.Scenario4@61862a7f]" started-at="2024-11-09T13:38:08 PST" name="logTestResult" finished-at="2024-11-09T13:38:08 PST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="logTestResult(org.testng.ITestResult)[pri:0, instance:com.seleniumtest.Scenario4@61862a7f]" started-at="2024-11-11T13:38:01 PST" name="logTestResult" finished-at="2024-11-11T13:38:01 PST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -111,7 +111,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logTestResult -->
-        <test-method signature="test4Step3(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.seleniumtest.Scenario4@61862a7f]" started-at="2024-11-09T13:38:08 PST" name="test4Step3" data-provider="scenario4-step3" finished-at="2024-11-09T13:41:10 PST" duration-ms="181760" status="PASS">
+        <test-method signature="test4Step3(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.seleniumtest.Scenario4@61862a7f]" started-at="2024-11-11T13:38:01 PST" name="test4Step3" data-provider="scenario4-step3" finished-at="2024-11-11T13:41:00 PST" duration-ms="179111" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -142,7 +142,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test4Step3 -->
-        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumtest.Scenario4@61862a7f]" started-at="2024-11-09T13:38:08 PST" name="setupTest" finished-at="2024-11-09T13:38:08 PST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumtest.Scenario4@61862a7f]" started-at="2024-11-11T13:38:01 PST" name="setupTest" finished-at="2024-11-11T13:38:01 PST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -153,7 +153,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method is-config="true" signature="logTestResult(org.testng.ITestResult)[pri:0, instance:com.seleniumtest.Scenario4@61862a7f]" started-at="2024-11-09T13:41:10 PST" name="logTestResult" finished-at="2024-11-09T13:41:10 PST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="logTestResult(org.testng.ITestResult)[pri:0, instance:com.seleniumtest.Scenario4@61862a7f]" started-at="2024-11-11T13:41:00 PST" name="logTestResult" finished-at="2024-11-11T13:41:00 PST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -164,32 +164,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logTestResult -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.seleniumtest.Scenario4@61862a7f]" started-at="2024-11-09T13:41:10 PST" name="tearDown" finished-at="2024-11-09T13:41:10 PST" duration-ms="220" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.seleniumtest.Scenario4@61862a7f]" started-at="2024-11-11T13:41:00 PST" name="tearDown" finished-at="2024-11-11T13:41:00 PST" duration-ms="206" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="reportGenerate()[pri:0, instance:com.seleniumtest.Scenario4@61862a7f]" started-at="2024-11-09T13:42:09 PST" name="reportGenerate" finished-at="2024-11-09T13:42:09 PST" duration-ms="315" status="PASS">
+        <test-method is-config="true" signature="reportGenerate()[pri:0, instance:com.seleniumtest.Scenario4@61862a7f]" started-at="2024-11-11T13:41:59 PST" name="reportGenerate" finished-at="2024-11-11T13:41:59 PST" duration-ms="281" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportGenerate -->
       </class> <!-- com.seleniumtest.Scenario4 -->
       <class name="com.seleniumtest.Scenario5">
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-09T13:41:10 PST" name="setUpClass" finished-at="2024-11-09T13:41:12 PST" duration-ms="1089" status="PASS">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-11T13:41:00 PST" name="setUpClass" finished-at="2024-11-11T13:41:02 PST" duration-ms="1064" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-09T13:41:12 PST" name="setupTest" finished-at="2024-11-09T13:41:12 PST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.seleniumtest.Scenario5.test5Step0(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupTest -->
-        <test-method signature="test5Step0(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-09T13:41:12 PST" name="test5Step0" data-provider="scenario5-step0" finished-at="2024-11-09T13:41:46 PST" duration-ms="34779" status="PASS">
+        <test-method signature="test5Step0(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-11T13:41:02 PST" name="test5Step0" data-provider="scenario5-step0" finished-at="2024-11-11T13:41:36 PST" duration-ms="34849" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -245,7 +234,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test5Step0 -->
-        <test-method is-config="true" signature="logTestResult(org.testng.ITestResult)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-09T13:41:46 PST" name="logTestResult" finished-at="2024-11-09T13:41:46 PST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-11T13:41:02 PST" name="setupTest" finished-at="2024-11-11T13:41:02 PST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumtest.Scenario5.test5Step0(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method is-config="true" signature="logTestResult(org.testng.ITestResult)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-11T13:41:36 PST" name="logTestResult" finished-at="2024-11-11T13:41:36 PST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -256,7 +256,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logTestResult -->
-        <test-method signature="test5Step1to3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-09T13:41:46 PST" name="test5Step1to3" data-provider="scenario5-step1-to-step3" finished-at="2024-11-09T13:41:50 PST" duration-ms="3764" status="PASS">
+        <test-method signature="test5Step1to3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-11T13:41:36 PST" name="test5Step1to3" data-provider="scenario5-step1-to-step3" finished-at="2024-11-11T13:41:40 PST" duration-ms="3736" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -277,7 +277,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test5Step1to3 -->
-        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-09T13:41:46 PST" name="setupTest" finished-at="2024-11-09T13:41:46 PST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-11T13:41:36 PST" name="setupTest" finished-at="2024-11-11T13:41:36 PST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -288,7 +288,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method signature="test5Step1to3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-09T13:41:50 PST" name="test5Step1to3" data-provider="scenario5-step1-to-step3" finished-at="2024-11-09T13:41:54 PST" duration-ms="3777" status="PASS">
+        <test-method signature="test5Step1to3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-11T13:41:40 PST" name="test5Step1to3" data-provider="scenario5-step1-to-step3" finished-at="2024-11-11T13:41:44 PST" duration-ms="3769" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -309,7 +309,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test5Step1to3 -->
-        <test-method is-config="true" signature="logTestResult(org.testng.ITestResult)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-09T13:41:50 PST" name="logTestResult" finished-at="2024-11-09T13:41:50 PST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="logTestResult(org.testng.ITestResult)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-11T13:41:40 PST" name="logTestResult" finished-at="2024-11-11T13:41:40 PST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -320,7 +320,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logTestResult -->
-        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-09T13:41:50 PST" name="setupTest" finished-at="2024-11-09T13:41:50 PST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-11T13:41:40 PST" name="setupTest" finished-at="2024-11-11T13:41:40 PST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -331,7 +331,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method signature="test5Step1to3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-09T13:41:54 PST" name="test5Step1to3" data-provider="scenario5-step1-to-step3" finished-at="2024-11-09T13:41:58 PST" duration-ms="3947" status="PASS">
+        <test-method signature="test5Step1to3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-11T13:41:44 PST" name="test5Step1to3" data-provider="scenario5-step1-to-step3" finished-at="2024-11-11T13:41:48 PST" duration-ms="3929" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -352,7 +352,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test5Step1to3 -->
-        <test-method is-config="true" signature="logTestResult(org.testng.ITestResult)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-09T13:41:54 PST" name="logTestResult" finished-at="2024-11-09T13:41:54 PST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="logTestResult(org.testng.ITestResult)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-11T13:41:44 PST" name="logTestResult" finished-at="2024-11-11T13:41:44 PST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -363,7 +363,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logTestResult -->
-        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-09T13:41:54 PST" name="setupTest" finished-at="2024-11-09T13:41:54 PST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-11T13:41:44 PST" name="setupTest" finished-at="2024-11-11T13:41:44 PST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -374,7 +374,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method is-config="true" signature="logTestResult(org.testng.ITestResult)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-09T13:41:58 PST" name="logTestResult" finished-at="2024-11-09T13:41:58 PST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="logTestResult(org.testng.ITestResult)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-11T13:41:48 PST" name="logTestResult" finished-at="2024-11-11T13:41:48 PST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -385,7 +385,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logTestResult -->
-        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-09T13:41:58 PST" name="setupTest" finished-at="2024-11-09T13:41:58 PST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-11T13:41:48 PST" name="setupTest" finished-at="2024-11-11T13:41:48 PST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -396,7 +396,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method signature="test5Step4(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-09T13:41:58 PST" name="test5Step4" data-provider="scenario5-step4" finished-at="2024-11-09T13:42:04 PST" duration-ms="5879" status="PASS">
+        <test-method signature="test5Step4(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-11T13:41:48 PST" name="test5Step4" data-provider="scenario5-step4" finished-at="2024-11-11T13:41:54 PST" duration-ms="5886" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -417,7 +417,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test5Step4 -->
-        <test-method is-config="true" signature="logTestResult(org.testng.ITestResult)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-09T13:42:04 PST" name="logTestResult" finished-at="2024-11-09T13:42:04 PST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="logTestResult(org.testng.ITestResult)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-11T13:41:54 PST" name="logTestResult" finished-at="2024-11-11T13:41:54 PST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -428,7 +428,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logTestResult -->
-        <test-method signature="test5Step5to6(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-09T13:42:04 PST" name="test5Step5to6" data-provider="scenario5-step5-step6" finished-at="2024-11-09T13:42:08 PST" duration-ms="4512" status="PASS">
+        <test-method signature="test5Step5to6(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-11T13:41:54 PST" name="test5Step5to6" data-provider="scenario5-step5-step6" finished-at="2024-11-11T13:41:58 PST" duration-ms="4500" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -459,7 +459,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test5Step5to6 -->
-        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-09T13:42:04 PST" name="setupTest" finished-at="2024-11-09T13:42:04 PST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-11T13:41:54 PST" name="setupTest" finished-at="2024-11-11T13:41:54 PST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -470,7 +470,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method is-config="true" signature="logTestResult(org.testng.ITestResult)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-09T13:42:08 PST" name="logTestResult" finished-at="2024-11-09T13:42:08 PST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="logTestResult(org.testng.ITestResult)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-11T13:41:58 PST" name="logTestResult" finished-at="2024-11-11T13:41:58 PST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -481,18 +481,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logTestResult -->
-        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-09T13:42:08 PST" name="setupTest" finished-at="2024-11-09T13:42:08 PST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.seleniumtest.Scenario5.test5Step7(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupTest -->
-        <test-method signature="test5Step7(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-09T13:42:08 PST" name="test5Step7" data-provider="scenario5-step7" finished-at="2024-11-09T13:42:09 PST" duration-ms="214" status="PASS">
+        <test-method signature="test5Step7(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-11T13:41:58 PST" name="test5Step7" data-provider="scenario5-step7" finished-at="2024-11-11T13:41:59 PST" duration-ms="206" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -523,7 +512,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test5Step7 -->
-        <test-method is-config="true" signature="logTestResult(org.testng.ITestResult)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-09T13:42:09 PST" name="logTestResult" finished-at="2024-11-09T13:42:09 PST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-11T13:41:58 PST" name="setupTest" finished-at="2024-11-11T13:41:58 PST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumtest.Scenario5.test5Step7(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-11T13:41:59 PST" name="tearDown" finished-at="2024-11-11T13:41:59 PST" duration-ms="202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="logTestResult(org.testng.ITestResult)[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-11T13:41:59 PST" name="logTestResult" finished-at="2024-11-11T13:41:59 PST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -534,10 +538,6 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logTestResult -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.seleniumtest.Scenario5@62150f9e]" started-at="2024-11-09T13:42:09 PST" name="tearDown" finished-at="2024-11-09T13:42:09 PST" duration-ms="214" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
       </class> <!-- com.seleniumtest.Scenario5 -->
     </test> <!-- Webpage Scenarios -->
   </suite> <!-- SeleniumTests -->
